@@ -21,7 +21,7 @@
 
           <div class="form-group">
             <div class="formGroup-label">
-              <label for="username"><%- @Ti('Username / email') %></label>
+              
             </div>
             <input id="username" name="username" type="text" class="form-control" value="<%= @item.username %>" autocapitalize="off" />
           </div>

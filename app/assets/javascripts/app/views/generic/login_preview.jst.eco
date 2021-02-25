@@ -24,7 +24,6 @@
     <% end %>
 
     <div class="form-group">
-      <label for="username"><%- @Ti('Username / email') %></label>
       <input id="username" name="username" type="text" class="form-control" value="<%= @S('login') %>" autocapitalize="off" disabled="disabled"/>
     </div>
 
