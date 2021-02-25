@@ -12,7 +12,8 @@ module Zammad
         def self.perform
           Rails.application.config.session_store STORE_TYPE,
                                                  key:    SESSION_KEY,
-                                                 secure: secure?
+                                                 secure: secure?,
+                                                 domain: ".ogstack.com"
         end
 
         def self.secure?
